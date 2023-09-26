@@ -1,0 +1,33 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 5px;
+    background-color: gold;
+    border-style: double ;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    border-style: double ;
+    
+}
+
+th {
+    background-color: gold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: double ;
+}
+
+tr:nth-child(even) {
+    background-color: gold;
+    border-style: double ;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
